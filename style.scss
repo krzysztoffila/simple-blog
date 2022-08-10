@@ -52,9 +52,30 @@ header{
         }
     }
 }
-
 /* NAVBAR */
 nav{
-    height: 50px;
-    background-color: black;
+    padding: 10px 0 10px 50px;
+    background: #f3a683;
+    ul{
+        list-style-type: none;
+        li{
+            float: right;
+            width: 20%;
+            margin-right: 10px;
+            border: 1px solid #e15f41;
+            border-radius: 5px;
+            &:hover{
+            background-color: #f19066;
+            }
+        }
+    }
+}
+nav ul li a {
+    /* to width of father(ul) use display block */
+    display: block;
+    text-align: center;
+    color:#e15f41;
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
