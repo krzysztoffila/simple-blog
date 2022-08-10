@@ -1,59 +1,63 @@
 /* GLOBAL */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-family: 'Verdana', sans-serif;
+
+html {
+  font-family: "Verdana", sans-serif;
 }
-.clearfix::after{
-    content: '';
-    /* without display:block; -> clear: both doesn't work*/
-    display: block;
-    clear: both;
+
+.clearfix::after {
+  content: "";
+  /* without display:block; -> clear: both doesn't work*/
+  display: block;
+  clear: both;
 }
+
 /* HEADER */
-header{
-    background-color: #f7d794;
+header {
+  background-color: #f7d794;
 }
-header div{
-    width: 20%;
-    height: 200px;
-    margin: 2.5%;
-    /* horizontal arrangement of elements */
-    float: left;
-    /* horizontal arrangement of elements with margins
-    (without margins -> father of the elem must have font-size:0;) */
-    /* display: inline-block;  */
-    margin-bottom: 10px;
+header div {
+  width: 20%;
+  height: 200px;
+  margin: 2.5%;
+  /* horizontal arrangement of elements */
+  float: left;
+  /* horizontal arrangement of elements with margins
+  (without margins -> father of the elem must have font-size:0;) */
+  /* display: inline-block;  */
+  margin-bottom: 10px;
 }
-header div:nth-child(1){
-    background-color: #786fa6;
+header div:nth-child(1) {
+  background-color: #786fa6;
 }
-header div:nth-child(2){
-    background-color: #f8a5c2;
+header div:nth-child(1):hover {
+  background-color: #574b90;
 }
-header div:nth-child(3){
-    background-color: #63cdda;
+header div:nth-child(2) {
+  background-color: #f8a5c2;
 }
-header div:nth-child(4){
-    background-color: #ea8685;
+header div:nth-child(2):hover {
+  background-color: #f78fb3;
 }
-header div:nth-child(1):hover{
-    background-color: #574b90;
+header div:nth-child(3) {
+  background-color: #63cdda;
 }
-header div:nth-child(2):hover{
-    background-color: #f78fb3;
+header div:nth-child(3):hover {
+  background-color: #3dc1d3;
 }
-header div:nth-child(3):hover{
-    background-color: #3dc1d3;
+header div:nth-child(4) {
+  background-color: #ea8685;
 }
-headear div:nth-child(4):hover{
-    background-color: #e66767;
+header div:nth-child(4):hover {
+  background-color: #e66767;
 }
+
 /* NAVBAR */
-nav{
-    height: 50px;
-    background-color: black;
-}
+nav {
+  height: 50px;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
